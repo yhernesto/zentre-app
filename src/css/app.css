@@ -1,0 +1,22 @@
+/* app global css */
+.bg-blur {
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+.first-border {
+  border-radius: 20px 0 0 20px;
+}
+
+.last-border {
+  border-radius: 0 20px 20px 0;
+}
+
+.logo-image {
+  width: 125px;
+  position: relative;
+  top: -62.5px;
+  /* clip-path: circle(); */
+  left: 40px;
+}
